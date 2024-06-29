@@ -3,35 +3,35 @@ import React from "react";
 export default function Nav1() {
   return (
     <>
-      <div className="w-full bg-[#fe9001] px-8 py-2 flex justify-between">
+      <div className="w-full bg-[#342afb] px-8 py-2 flex justify-between">
         {/* icon container */}
-        <div className="flex gap-8 text-white">
-          <a href="https://www.facebook.com/newtalentinfotech" target="_blank">
-            <i className="fa-brands fa-facebook-f"></i>
+        <div className="flex gap-8 text-white cursor-pointer ">
+          <a href="https://www.facebook.com/ntitechacademy" target="_blank">
+            <i className="fa-brands fa-facebook-f hover:text-[#f4dd4a]"></i>
           </a>
           <a
-            href="https://x.com/i/flow/login?redirect_after_login=%2Fnewtalentinfo"
+            href="https://x.com/i/flow/login?redirect_after_login=%2Fntitechacademy_"
             target="_blank"
           >
-            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-twitter hover:text-[#f4dd4a]"></i>
           </a>
           <a
-            href="https://www.instagram.com/newtalentinfotech/"
+            href="https://www.instagram.com/ntitechacademy/"
             target="_blank"
           >
-            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-instagram hover:text-[#f4dd4a]"></i>
           </a>
           <a
-            href="https://www.linkedin.com/company/new-talent-infotech"
+            href="https://www.youtube.com/@NTITechAcademy1"
             target="_blank"
           >
-            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-youtube hover:text-[#f4dd4a]"></i>
           </a>
           <a
-            href="https://www.linkedin.com/company/new-talent-infotech"
+            href="https://www.linkedin.com/company/nti-tech-academy/"
             target="_blank"
           >
-            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin hover:text-[#f4dd4a]"></i>
           </a>
         </div>
         {/* Detail Container for NTIS */}
