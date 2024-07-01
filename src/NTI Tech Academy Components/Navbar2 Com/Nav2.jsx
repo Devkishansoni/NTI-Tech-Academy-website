@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Nav2() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,10 @@ export default function Nav2() {
         </div>
         <div>
           <ul className="flex gap-6 px-8 text-sm font-semibold font-sans items-center">
-            <li>Home</li>
+            <NavLink to="/home">
+              <li>Home</li>
+            </NavLink>
+            
             <li>Blog</li>
             <li>About</li>
             <div className="relative inline-block text-left">
