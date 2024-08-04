@@ -2,7 +2,7 @@ import React from "react";
 
 const CampusInfoSection = () => {
   return (
-    <div className="bg-black text-white py-12">
+    <div className="bg-black text-white py-12 h-svh w-full">
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         <div className="lg:w-1/2 p-6">
           <h2 className="text-yellow-500 font-bold text-lg mb-2">

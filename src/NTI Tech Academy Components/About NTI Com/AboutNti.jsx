@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutNti() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center md:items-start bg-white p-4 md:p-8 h-screen justify-center">
+      <div className="flex flex-col md:flex-row items-center md:items-start bg-white p-4 md:p-8 h-svh justify-center">
         {/* Left Image Section */}
         <div
           className="md:w-[600px] lg:w-[1000px] flex justify-end items-center h-full rounded-bl-full rounded-tr-full bg-cover bg-center"

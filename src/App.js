@@ -7,12 +7,12 @@ function App() {
   return (
     <>
       
-      {/* <Routes>
+      <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/home' element={<Home/>} />
         
-      </Routes> */}
-      <AboutUs/>
+      </Routes>
+      {/* <AboutUs/> */}
       
       
     </>

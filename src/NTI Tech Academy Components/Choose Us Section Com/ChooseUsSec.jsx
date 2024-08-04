@@ -30,7 +30,7 @@ export default function ChooseUsSec() {
   ];
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 h-svh w-full">
       <h2 className="text-yellow-400 text-xl font-bold text-center">
         About Us
       </h2>

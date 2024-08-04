@@ -30,7 +30,7 @@ export default function AcademyDes() {
 
   return (
     <>
-      <div className="w-full bg-white px-4 py-4 flex justify-center h-fit">
+      <div className="w-full bg-white px-4 py-4 flex justify-center h-svh">
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {data.map((val, index) => (
             <div

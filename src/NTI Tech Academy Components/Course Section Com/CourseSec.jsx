@@ -33,7 +33,7 @@ const courses = [
 ];
 export default function CourseSec() {
   return (
-    <div className="container mx-auto p-4 pt-10">
+    <div className="container mx-auto p-4 pt-10 h-svh w-full">
       <h2 className="text-yellow-400 text-xl font-bold text-center">
         Our IT Courses
       </h2>

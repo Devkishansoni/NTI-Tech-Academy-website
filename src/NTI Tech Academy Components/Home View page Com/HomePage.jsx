@@ -4,7 +4,7 @@ export default class HomePage extends Component {
   render() {
     return (
       <>
-        <div className="w-full h-full bg-white px-5 py-4 flex justify-center">
+        <div className="w-full h-svh bg-white px-5 py-4 flex justify-center">
           <div className="flex justify-between items-center">
             <div className="w-[500px] px-3 py-3 space-y-7">
               <p className="text-xl font-semibold text-[#ff3e3e]">
